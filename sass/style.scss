@@ -1,11 +1,12 @@
-@import './customize/customize';
-@import './base/reset';
-@import './layout/body';
-@import './layout/navbar';
-@import './layout/carousel';
-@import './layout/footer';
-@import './layout/main';
+@import "./customize/customize";
+@import "./base/reset";
+@import "./layout/body";
+@import "./layout/navbar";
+@import "./layout/carousel";
+@import "./layout/main";
 
-
-@import './queries/media-320';
+@import "./queries/media-xsmall";
+@import "./queries/media-small";
+@import "./queries/media-medium";
+@import "./queries/media-large";
 @import "../node_modules/bootstrap/scss/bootstrap";

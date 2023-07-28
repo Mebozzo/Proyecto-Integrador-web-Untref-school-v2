@@ -1,12 +1,10 @@
-  .nav-link{
-  color:$success !important;
-  
- }
-.nav-item:hover{
-  color: $warning;
-  font-weight: $font-weight-semibold;
+a {
+  color: $success;
 }
 
-/* a{
-  color: $success !important;
-} */
+.nav-item:hover {
+  color: $secondary;
+}
+a:hover {
+  color: $link-hover-color;
+}

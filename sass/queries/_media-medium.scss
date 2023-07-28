@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-with: 1200px) {
   .nav-item {
     background-color: $secondary;
   }
