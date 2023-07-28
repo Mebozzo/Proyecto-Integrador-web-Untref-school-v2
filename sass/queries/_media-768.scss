@@ -1,0 +1,8 @@
+@media (min-width: 768px) {
+  .nav-item {
+    background-color: $secondary;
+  }
+  .nav-item:hover {
+    font-size: $font-size-lg;
+  }
+}

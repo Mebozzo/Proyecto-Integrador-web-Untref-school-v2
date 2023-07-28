@@ -1,3 +1,11 @@
-$font-family-sans-serif:'Poppins',
-sans-serif;
+@import './customize/customize';
+@import './base/reset';
+@import './layout/body';
+@import './layout/navbar';
+@import './layout/carousel';
+@import './layout/footer';
+@import './layout/main';
+
+
+@import './queries/media-320';
 @import "../node_modules/bootstrap/scss/bootstrap";
