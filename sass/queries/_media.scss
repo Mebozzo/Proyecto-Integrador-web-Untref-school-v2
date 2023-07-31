@@ -1,0 +1,22 @@
+@media (max-width: 575.98px) {
+  .nav-item:hover {
+    background-color: $secondary;
+    color: $success;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .nav-item:hover {
+    font-size: $font-size-lg;
+    background-color: $bs-nav-link-hover-color;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023.98px) {
+  .nav-item {
+    color: $bs-nav-link-hover-color;
+  }
+}
+@media (min-width: 1200px) {
+  .nav-link {
+    color: $success;
+  }
+}

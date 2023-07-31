@@ -1,12 +1,11 @@
 @import "./customize/customize";
 @import "./base/reset";
 @import "./layout/body";
-@import "./layout/navbar";
+@import "./layout/cards";
 @import "./layout/carousel";
+@import "./layout/noticias";
 @import "./layout/main";
+@import "./layout/navbar";
 
-@import "./queries/media-xsmall";
-@import "./queries/media-small";
-@import "./queries/media-medium";
-@import "./queries/media-large";
+@import "./queries/media";
 @import "../node_modules/bootstrap/scss/bootstrap";
